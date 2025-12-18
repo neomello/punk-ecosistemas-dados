@@ -18,21 +18,6 @@
 
 ---
 
-## 🧠 Modelo Mental
-
-Cada núcleo responde a uma pergunta estrutural:
-
-- **Quem é essa empresa no mundo digital?**
-- **Onde ela existe?**
-- **Como ela se comporta?**
-- **Que sinais emite?**
-- **Onde há força, ruído ou silêncio?**
-- **O que pode ser automatizado, tokenizado ou otimizado?**
-- **Como isso evolui ao longo do tempo?**
-- **Quais padrões persistem e quais são ruído momentâneo?**
-
----
-
 ## 🏗️ Arquitetura Poliglota
 
 **Centro gravitacional:** `contracts/` — O tratado de paz entre reinos.
