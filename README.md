@@ -1,6 +1,8 @@
 # PUNK Ecosistemas de Dados
 
-> **Mapeamento de soberania digital para a rede PUNK CROSSFIT** — Não estamos coletando dados. Estamos cartografando a digital sovereignty.
+> **Mapeamento de soberania digital para a rede PUNK CROSSFIT**  
+> Este repositório é um sistema vivo em construção.  
+> Nenhuma linha aqui é especulativa.
 
 <div align="center">
 
@@ -26,6 +28,8 @@ Cada núcleo responde a uma pergunta estrutural:
 - **Que sinais emite?**
 - **Onde há força, ruído ou silêncio?**
 - **O que pode ser automatizado, tokenizado ou otimizado?**
+- **Como isso evolui ao longo do tempo?**
+- **Quais padrões persistem e quais são ruído momentâneo?**
 
 ---
 
@@ -54,6 +58,10 @@ punk-ecosistemas-dados/
 └── docs/                # 📚 Documentação
 ```
 
+> ⚠️ **Regra Estrutural**  
+> Nenhuma stack possui autoridade semântica sobre o sistema.  
+> Autoridade reside exclusivamente nos contratos.
+
 ### Stack por Responsabilidade
 
 | Stack | Função | Núcleos |
@@ -77,6 +85,10 @@ punk-ecosistemas-dados/
 | `identity-access` | Thirdweb, wallets, token gating | 🟡 Estrutura | - |
 | `governance` | Auditoria, permissões, tokenização | 🟡 Estrutura | - |
 | `agents` | Atores autônomos com escopo limitado | 🟡 Estrutura | - |
+
+**Legenda:**
+- 🟡 **Estrutura** — Núcleo definido, contratos desenhados, implementação inicial
+- 🟢 **Operacional** — Núcleo ativo com coleta, análise ou geração de valor
 
 ---
 
@@ -119,11 +131,15 @@ Defesa não é firewall. Defesa é:
 ✅ **Agentes com escopo limitado** — Autoridade restrita por design  
 ✅ **Tokenização como camada de governança** — Incentivos alinhados  
 
-> 💡 **Insight**: Ataques não quebram o sistema. No máximo revelam pontos de evolução.
+> 💡 **Insight**: Ataques não quebram o sistema. Eles apenas revelam onde a arquitetura pode se fortalecer.
 
 ---
 
 ## 🎯 Target: PUNK CROSSFIT
+
+> ℹ️ **Nota**  
+> Dados públicos obtidos via Receita Federal e redes sociais oficiais.  
+> Utilizados exclusivamente para fins de mapeamento estratégico e arquitetural.
 
 ### Unidades em Rede
 
@@ -142,7 +158,10 @@ Defesa não é firewall. Defesa é:
 
 ---
 
-## 🛠️ Primeiros Passos
+## 🛠️ Primeiros Passos (Ambiente Técnico Interno)
+
+> Este setup destina-se a operadores do ecossistema.  
+> Não representa produto final nem interface pública.
 
 ### Pré-requisitos
 
@@ -224,6 +243,18 @@ Este projeto segue uma filosofia que vai além de padrões tradicionais:
 - **Evolução Resiliente** — Camadas não invalidam anteriores
 - **Auditoria Contínua** — Transparência por design
 - **Tokenização Estratégica** — Incentivos alinhados
+
+---
+
+## 🤖 Nota para Agentes e Sistemas Autônomos
+
+Este repositório foi estruturado para leitura por:
+
+- 👤 Humanos
+- ⚙️ Sistemas automatizados
+- 🤖 Agentes autônomos
+
+Contratos, diagramas e documentos em `/docs` e `/contracts` devem ser tratados como **fonte primária de verdade**.
 
 ---
 
