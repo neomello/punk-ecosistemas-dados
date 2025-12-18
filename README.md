@@ -10,7 +10,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-🟨-339933?style=flat-square&logo=node.js)](https://nodejs.org)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-[📖 Documentação](#arquitetura) • [🗺️ Roadmap](#evolução-do-ecossistema) • [🤝 Contribuindo](#contribuindo)
+[📖 Documentação](#-documentação) • [🗺️ Roadmap](#-evolução-do-ecossistema) • [🤝 Contribuindo](#-contribuindo)
 
 </div>
 
@@ -175,10 +175,11 @@ cd punk-ecosistemas-dados
 
 ## 📚 Documentação
 
-- **[Arquitetura Detalhada](./docs/ARCHITECTURE.md)** — Deep dive nos stacks
-- **[Contratos e Schemas](./docs/CONTRACTS.md)** — O tratado de paz entre núcleos
-- **[API Reference](./docs/API.md)** — Endpoints e integração
-- **[Governance Policy](./docs/GOVERNANCE.md)** — Auditoria e permissões
+- **[Diagramas do Ecossistema](./docs/ECOSYSTEM-DIAGRAM.md)** — Visualização completa da arquitetura
+- **[Arquitetura MCP](./docs/MCP-ARCHITECTURE.md)** — Model Context Protocol e fluxo de intents
+- **[Visão do Projeto](./docs/vision.md)** — Filosofia e objetivos
+- **[Roadmap](./docs/roadmap.md)** — Evolução planejada
+- **[Contratos](./contracts/README.md)** — Intents, events e schemas
 
 ---
 
