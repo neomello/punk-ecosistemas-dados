@@ -99,94 +99,35 @@ punk-ecosistemas-dados/
 Desenhado para crescer em ondas sem invalidar fases anteriores:
 
 ```mermaid
-flowchart TB
-    subgraph PHASE1["🔬 FASE 1 — Pesquisa e Mapeamento"]
-        direction TB
-        P1_MAIN[("🎯 Coleta de<br/>Sinais Brutos")]
-        P1_A["🐍 research/<br/>Google • Instagram • Web"]
-        P1_B["🐍 ingestion/<br/>Normalização"]
-        P1_C["📜 contracts/<br/>Schemas Iniciais"]
-        P1_MAIN --> P1_A & P1_B & P1_C
-    end
+flowchart LR
+    P1["◇ Pesquisa"]
+    P2["◈ Dashboards"]
+    P3["⧉ Automação"]
+    P4["⬡ Agentes"]
+    P5["◎ Tokenização"]
+    P6["⬢ Governança"]
 
-    subgraph PHASE2["📊 FASE 2 — Dashboards Estratégicos"]
-        direction TB
-        P2_MAIN[("📈 Visualização<br/>de Padrões")]
-        P2_A["🐍 intelligence/<br/>Correlação • NLP"]
-        P2_B["☕ visualization/<br/>Mermaid • Reports"]
-        P2_C["🟨 api/<br/>Edge Endpoints"]
-        P2_MAIN --> P2_A & P2_B & P2_C
-    end
+    P1 --> P2 --> P3 --> P4 --> P5 --> P6
+    P6 -.-> P1
 
-    subgraph PHASE3["⚙️ FASE 3 — Automação Parcial"]
-        direction TB
-        P3_MAIN[("🔄 Workflows<br/>Semi-Autônomos")]
-        P3_A["🐍 agents/<br/>Escopo Limitado"]
-        P3_B["📜 contracts/<br/>Intents • Events"]
-        P3_C["🟨 infrastructure/<br/>MCP Layer"]
-        P3_MAIN --> P3_A & P3_B & P3_C
-    end
-
-    subgraph PHASE4["🤖 FASE 4 — Agentes Autônomos"]
-        direction TB
-        P4_MAIN[("🧠 Decisões<br/>Autônomas")]
-        P4_A["🐍 agents/<br/>Full Autonomy"]
-        P4_B["☕ core/<br/>Regras Centrais"]
-        P4_C["📜 contracts/<br/>Boundaries"]
-        P4_MAIN --> P4_A & P4_B & P4_C
-    end
-
-    subgraph PHASE5["🪙 FASE 5 — Tokenização Seletiva"]
-        direction TB
-        P5_MAIN[("💎 Valor<br/>Tokenizado")]
-        P5_A["🟨 identity-access/<br/>Thirdweb • Wallets"]
-        P5_B["☕ governance/<br/>Token Gating"]
-        P5_C["📜 contracts/<br/>Permissions"]
-        P5_MAIN --> P5_A & P5_B & P5_C
-    end
-
-    subgraph PHASE6["🏛️ FASE 6 — Governança Programável"]
-        direction TB
-        P6_MAIN[("⚖️ Soberania<br/>Digital Total")]
-        P6_A["☕ governance/<br/>Auditoria Contínua"]
-        P6_B["🦀 performance/<br/>Rust • Go"]
-        P6_C["📜 contracts/<br/>Lei Imutável"]
-        P6_MAIN --> P6_A & P6_B & P6_C
-    end
-
-    %% Fluxo Principal entre Fases
-    PHASE1 ==>|"Dados<br/>Normalizados"| PHASE2
-    PHASE2 ==>|"Insights<br/>Acionáveis"| PHASE3
-    PHASE3 ==>|"Padrões<br/>Validados"| PHASE4
-    PHASE4 ==>|"Ativos<br/>Estratégicos"| PHASE5
-    PHASE5 ==>|"Governança<br/>Tokenizada"| PHASE6
-
-    %% Feedback Loops
-    PHASE6 -.->|"🔄 Auditoria"| PHASE1
-    PHASE4 -.->|"🔄 Refinamento"| PHASE2
-
-    %% Estilização das Fases
-    style PHASE1 fill:#1a1a2e,stroke:#FFE5B4,stroke-width:3px,color:#fff
-    style PHASE2 fill:#1a1a2e,stroke:#FFD580,stroke-width:3px,color:#fff
-    style PHASE3 fill:#1a1a2e,stroke:#FFC74D,stroke-width:3px,color:#fff
-    style PHASE4 fill:#1a1a2e,stroke:#FFB81A,stroke-width:3px,color:#fff
-    style PHASE5 fill:#1a1a2e,stroke:#E5A500,stroke-width:3px,color:#fff
-    style PHASE6 fill:#1a1a2e,stroke:#CC9200,stroke-width:3px,color:#fff
-
-    %% Estilização dos Nós Principais
-    style P1_MAIN fill:#FFE5B4,stroke:#1a1a2e,stroke-width:2px,color:#000
-    style P2_MAIN fill:#FFD580,stroke:#1a1a2e,stroke-width:2px,color:#000
-    style P3_MAIN fill:#FFC74D,stroke:#1a1a2e,stroke-width:2px,color:#000
-    style P4_MAIN fill:#FFB81A,stroke:#1a1a2e,stroke-width:2px,color:#000
-    style P5_MAIN fill:#E5A500,stroke:#1a1a2e,stroke-width:2px,color:#000
-    style P6_MAIN fill:#CC9200,stroke:#1a1a2e,stroke-width:2px,color:#000
-
-    %% Assinatura
-    SIGNATURE["Ø((Ø))"]
-    style SIGNATURE fill:transparent,stroke:#3B82F6,stroke-width:2px,color:#3B82F6,font-weight:bold
+    style P1 fill:#FFE5B4,stroke:#1a1a2e,color:#000
+    style P2 fill:#FFD580,stroke:#1a1a2e,color:#000
+    style P3 fill:#FFC74D,stroke:#1a1a2e,color:#000
+    style P4 fill:#FFB81A,stroke:#1a1a2e,color:#000
+    style P5 fill:#E5A500,stroke:#1a1a2e,color:#000
+    style P6 fill:#CC9200,stroke:#1a1a2e,color:#000
 ```
 
-> **Legenda de Stacks**: ☕ Java (Domínios) • 🐍 Python (Inteligência) • 🟨 Node/TS (Edge/Web3) • 🦀 Rust/Go (Performance) • 📜 Contracts (Verdade) • <span style="color:#3B82F6">**Ø((Ø))**</span>
+| Fase | Núcleos | Entrega |
+|:----:|---------|---------|
+| **◇ 1** | `research/` `ingestion/` | Sinais brutos normalizados |
+| **◈ 2** | `intelligence/` `visualization/` | Padrões e insights visuais |
+| **⧉ 3** | `agents/` `infrastructure/` | Workflows semi-autônomos |
+| **⬡ 4** | `agents/` `core/` | Decisões autônomas |
+| **◎ 5** | `identity-access/` `governance/` | Ativos tokenizados |
+| **⬢ 6** | `governance/` `contracts/` | Soberania digital total |
+
+<sub>Ø((Ø))</sub>
 
 **Regra**: Nenhuma fase invalida a anterior. Arquitetura em camadas resiliente.
 
