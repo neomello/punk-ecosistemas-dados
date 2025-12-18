@@ -208,6 +208,7 @@ cd punk-ecosistemas-dados
 
 ## 📚 Documentação
 
+- **[◈ Descoberta](./docs/DISCOVERY.md)** — Perguntas que revelam conexões
 - **[Diagramas do Ecossistema](./docs/ECOSYSTEM-DIAGRAM.md)** — Visualização completa da arquitetura
 - **[Arquitetura MCP](./docs/MCP-ARCHITECTURE.md)** — Model Context Protocol e fluxo de intents
 - **[Visão do Projeto](./docs/vision.md)** — Filosofia e objetivos
