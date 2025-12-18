@@ -1,10 +1,10 @@
-# 🎨 PUNK Branding Guidelines
+# ◈ PUNK Branding Guidelines
 
 > Padrões visuais e técnicos para manter consistência no ecossistema PUNK.
 
 ---
 
-## 🎨 Paleta de Cores
+## ◇ Paleta de Cores
 
 ### CSS Variables (Site Atual)
 
@@ -43,7 +43,7 @@
 
 ---
 
-## 📱 Breakpoints Responsivos
+## ◎ Breakpoints Responsivos
 
 | Dispositivo | Tamanho | Tailwind |
 |-------------|---------|----------|
@@ -53,7 +53,7 @@
 
 ---
 
-## 🚀 Bibliotecas Sugeridas
+## ⧉ Bibliotecas Sugeridas
 
 | Biblioteca | Uso |
 |------------|-----|
@@ -64,7 +64,7 @@
 
 ---
 
-## ⚠️ Pontos de Atenção
+## ◬ Pontos de Atenção
 
 ### Mídia
 
@@ -84,20 +84,20 @@
 
 ---
 
-## 📝 Convenções de Código
+## ⬡ Convenções de Código
 
 ### Princípios
 
-- ✅ **Mobile-first approach** — Começar pelo mobile
-- ✅ **Componentes funcionais** — Usar hooks
-- ✅ **DRY** — Don't Repeat Yourself
-- ✅ **TypeScript** — Opcional, mas recomendado
-- ✅ **PascalCase** — Para componentes React
+- ◉ **Mobile-first approach** — Começar pelo mobile
+- ◉ **Componentes funcionais** — Usar hooks
+- ◉ **DRY** — Don't Repeat Yourself
+- ◉ **TypeScript** — Opcional, mas recomendado
+- ◉ **PascalCase** — Para componentes React
 
 ### Estrutura de Componentes
 
 ```tsx
-// ✅ Correto
+// ◉ Correto
 const CardUnidade = ({ nome, imagem }: CardUnidadeProps) => {
   return (
     <div className="bg-black text-white">
@@ -106,7 +106,7 @@ const CardUnidade = ({ nome, imagem }: CardUnidadeProps) => {
   );
 };
 
-// ❌ Evitar
+// ✗ Evitar
 function card_unidade(props) {
   // ...
 }
@@ -114,7 +114,7 @@ function card_unidade(props) {
 
 ---
 
-## 🔤 Tipografia
+## ◇ Tipografia
 
 ### Fontes Disponíveis
 
@@ -135,6 +135,8 @@ public/fonts/
 
 <div align="center">
 
-**Soberania Digital em Preto e Laranja** 🧡🖤
+**Soberania Digital em Preto e Laranja**
+
+<sub>Ø((Ø))</sub>
 
 </div>

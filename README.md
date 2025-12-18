@@ -7,44 +7,44 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-in%20development-yellow?style=flat-square&logo=github)](https://github.com)
-[![Java](https://img.shields.io/badge/Java-☕-ED8B00?style=flat-square&logo=openjdk)](https://www.java.com)
-[![Python](https://img.shields.io/badge/Python-🐍-3776AB?style=flat-square&logo=python)](https://www.python.org)
-[![Node.js](https://img.shields.io/badge/Node.js-🟨-339933?style=flat-square&logo=node.js)](https://nodejs.org)
+[![Java](https://img.shields.io/badge/Java-JVM-ED8B00?style=flat-square&logo=openjdk)](https://www.java.com)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)](https://www.python.org)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=node.js)](https://nodejs.org)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-[📖 Documentação](#-documentação) • [🗺️ Roadmap](#-evolução-do-ecossistema) • [🤝 Contribuindo](#-contribuindo)
+[Documentação](#-documentação) ◦ [Roadmap](#-evolução-do-ecossistema) ◦ [Contribuindo](#-contribuindo)
 
 </div>
 
 ---
 
-## 🏗️ Arquitetura Poliglota
+## ◈ Arquitetura Poliglota
 
 **Centro gravitacional:** `contracts/` — O tratado de paz entre reinos.
 
 ```
 punk-ecosistemas-dados/
-├── contracts/           # 📜 CENTRO - Intents, events, schemas
+├── contracts/           # ◇ CENTRO - Intents, events, schemas
 │   ├── intents/
 │   ├── events/
 │   ├── permissions/
 │   ├── schemas/
 │   └── boundaries/
-├── core/                # ☕ Java - Lei feudal
-├── domains/             # ☕ Java - Territórios
-├── ingestion/           # 🐍 Python - Batedores
-├── intelligence/        # 🐍 Python - Cérebro
-├── visualization/       # ☕ Java - Mapas
-├── identity-access/     # 🟨 Node/TS - Thirdweb
-├── governance/          # ☕ Java - Auditoria
-├── agents/              # 🐍 Python - Entidades autônomas
-├── api/                 # 🟨 Node/TS - Edge
-├── infrastructure/      # 🟨 Node/TS - MCP
-├── research/            # 🐍 Python - Coleta de sinais
-└── docs/                # 📚 Documentação
+├── core/                # JVM  - Lei feudal
+├── domains/             # JVM  - Territórios
+├── ingestion/           # PY   - Batedores
+├── intelligence/        # PY   - Cérebro
+├── visualization/       # JVM  - Mapas
+├── identity-access/     # TS   - Thirdweb
+├── governance/          # JVM  - Auditoria
+├── agents/              # PY   - Entidades autônomas
+├── api/                 # TS   - Edge
+├── infrastructure/      # TS   - MCP
+├── research/            # PY   - Coleta de sinais
+└── docs/                # ◇    - Documentação
 ```
 
-> ⚠️ **Regra Estrutural**  
+> **◬ Regra Estrutural**  
 > Nenhuma stack possui autoridade semântica sobre o sistema.  
 > Autoridade reside exclusivamente nos contratos.
 
@@ -52,34 +52,35 @@ punk-ecosistemas-dados/
 
 | Stack | Função | Núcleos |
 |-------|--------|---------|
-| ☕ **Java** | Domínios estáveis, governança, lógica central | `core`, `domains`, `visualization`, `governance` |
-| 🟨 **Node/TS** | APIs de borda, Web3, infraestrutura MCP | `api`, `identity-access`, `infrastructure` |
-| 🐍 **Python** | Coleta, NLP, análise de sinais, agentes | `ingestion`, `intelligence`, `agents` |
-| 🦀 **Rust/Go** | Serviços críticos (roadmap futuro) | `performance`, `security` |
+| **JVM** | Domínios estáveis, governança, lógica central | `core`, `domains`, `visualization`, `governance` |
+| **TS** | APIs de borda, Web3, infraestrutura MCP | `api`, `identity-access`, `infrastructure` |
+| **PY** | Coleta, NLP, análise de sinais, agentes | `ingestion`, `intelligence`, `agents` |
+| **RS/GO** | Serviços críticos (roadmap futuro) | `performance`, `security` |
 
 ---
 
-## 📊 Status dos Núcleos
+## ◎ Status dos Núcleos
 
 | Núcleo | Função | Estado | Lead |
 |--------|--------|--------|------|
-| `core` | Configurações globais, tipos, regras | 🟡 Estrutura | - |
-| `domains` | Territórios de dados independentes | 🟡 Estrutura | - |
-| `ingestion` | Coleta de sinais externos | 🟡 Estrutura | - |
-| `intelligence` | Correlação, padrões, insights | 🟡 Estrutura | - |
-| `visualization` | Mermaid, exporters, relatórios | 🟡 Estrutura | - |
-| `identity-access` | Thirdweb, wallets, token gating | 🟡 Estrutura | - |
-| `governance` | Auditoria, permissões, tokenização | 🟡 Estrutura | - |
-| `agents` | Atores autônomos com escopo limitado | 🟡 Estrutura | - |
-| `research` | Coleta de sinais (Google, Instagram, Web) | 🟡 Estrutura | - |
+| `core` | Configurações globais, tipos, regras | ◌ Estrutura | - |
+| `domains` | Territórios de dados independentes | ◌ Estrutura | - |
+| `ingestion` | Coleta de sinais externos | ◌ Estrutura | - |
+| `intelligence` | Correlação, padrões, insights | ◌ Estrutura | - |
+| `visualization` | Mermaid, exporters, relatórios | ◌ Estrutura | - |
+| `identity-access` | Thirdweb, wallets, token gating | ◌ Estrutura | - |
+| `governance` | Auditoria, permissões, tokenização | ◌ Estrutura | - |
+| `agents` | Atores autônomos com escopo limitado | ◌ Estrutura | - |
+| `research` | Coleta de sinais (Google, Instagram, Web) | ◌ Estrutura | - |
 
 **Legenda:**
-- 🟡 **Estrutura** — Núcleo definido, contratos desenhados, implementação inicial
-- 🟢 **Operacional** — Núcleo ativo com coleta, análise ou geração de valor
+
+- ◌ **Estrutura** — Núcleo definido, contratos desenhados, implementação inicial
+- ● **Operacional** — Núcleo ativo com coleta, análise ou geração de valor
 
 ---
 
-## 🚀 Evolução do Ecossistema
+## ⟁ Evolução do Ecossistema
 
 Desenhado para crescer em ondas sem invalidar fases anteriores:
 
@@ -118,46 +119,45 @@ flowchart LR
 
 ---
 
-## 🔒 Defesa Infinita
+## ⧉ Defesa Infinita
 
 Defesa não é firewall. Defesa é:
 
-✅ **Contratos claros** — Intents e boundaries explícitos  
-✅ **Fronteiras explícitas** — Schemas compartilhados entre stacks  
-✅ **Zero dependência implícita** — Tudo auditável  
-✅ **Permissões contextuais** — Identity-access descentralizado  
-✅ **Auditoria contínua** — Logs imutáveis no governance  
-✅ **Agentes com escopo limitado** — Autoridade restrita por design  
-✅ **Tokenização como camada de governança** — Incentivos alinhados  
+◉ **Contratos claros** — Intents e boundaries explícitos  
+◉ **Fronteiras explícitas** — Schemas compartilhados entre stacks  
+◉ **Zero dependência implícita** — Tudo auditável  
+◉ **Permissões contextuais** — Identity-access descentralizado  
+◉ **Auditoria contínua** — Logs imutáveis no governance  
+◉ **Agentes com escopo limitado** — Autoridade restrita por design  
+◉ **Tokenização como camada de governança** — Incentivos alinhados  
 
-> 💡 **Insight**: Ataques não quebram o sistema. Eles apenas revelam onde a arquitetura pode se fortalecer.
+> **◇ Insight**: Ataques não quebram o sistema. Eles apenas revelam onde a arquitetura pode se fortalecer.
 
 ---
 
-## 🎯 Target: PUNK CROSSFIT
+## ⬢ Target: PUNK CROSSFIT
 
-> ℹ️ **Nota**  
-> Dados públicos obtidos via Receita Federal e redes sociais oficiais.  
+> **Nota**: Dados públicos obtidos via Receita Federal e redes sociais oficiais.  
 > Utilizados exclusivamente para fins de mapeamento estratégico e arquitetural.
 
 ### Unidades em Rede
 
 | Unidade | CNPJ | Razão Social | Status |
 |---------|------|--------------|--------|
-| **Marista (Sede)** | 17.010.452/0001-57 | Punk Crossfit Ltda | ✅ Ativa |
-| **Jardim Goiás** | 35.368.549/0001-18 | Jardim Goias Academia Ltda | ✅ Ativa |
-| **Eldorado** | 36.487.824/0001-85 | Eldorado Academia Ltda | ✅ Ativa |
-| **BLVCK Plaza D'Oro** | 62.420.166/0001-14 | Punk Blvck Plazadoro Academia Ltda | ✅ Ativa |
-| **CLUB Jardim América** | — | Em expansão (2025) | 🟡 Founders Stage |
+| **Marista (Sede)** | 17.010.452/0001-57 | Punk Crossfit Ltda | ● Ativa |
+| **Jardim Goiás** | 35.368.549/0001-18 | Jardim Goias Academia Ltda | ● Ativa |
+| **Eldorado** | 36.487.824/0001-85 | Eldorado Academia Ltda | ● Ativa |
+| **BLVCK Plaza D'Oro** | 62.420.166/0001-14 | Punk Blvck Plazadoro Academia Ltda | ● Ativa |
+| **CLUB Jardim América** | — | Em expansão (2025) | ◌ Founders Stage |
 
 ### Canais Oficiais
 
-- 📸 **Instagram**: [@punkcrossfit](https://www.instagram.com/punkcrossfit)
-- 🌐 **Site (Eldorado)**: [punkeldorado.com.br](https://www.punkeldorado.com.br/)
+- **Instagram**: [@punkcrossfit](https://www.instagram.com/punkcrossfit)
+- **Site (Eldorado)**: [punkeldorado.com.br](https://www.punkeldorado.com.br/)
 
 ---
 
-## 🛠️ Primeiros Passos (Ambiente Técnico Interno)
+## ⬡ Primeiros Passos (Ambiente Técnico Interno)
 
 > Este setup destina-se a operadores do ecossistema.  
 > Não representa produto final nem interface pública.
@@ -191,7 +191,7 @@ cd punk-ecosistemas-dados
 
 ---
 
-## 📚 Documentação
+## ◇ Documentação
 
 - **[◈ Descoberta](./docs/DISCOVERY.md)** — Perguntas que revelam conexões
 - **[Diagramas do Ecossistema](./docs/ECOSYSTEM-DIAGRAM.md)** — Visualização completa da arquitetura
@@ -202,9 +202,9 @@ cd punk-ecosistemas-dados
 
 ---
 
-## 🤝 Contribuindo
+## ◎ Contribuindo
 
-Adora contribuir? Excelente! Siga essas regras de ouro:
+Adora contribuir? Excelente. Siga essas regras:
 
 ### Regra Final para Toda Adição
 
@@ -215,7 +215,7 @@ Se algo novo for adicionado, **deve responder**:
 3. **Que rastro deixa?**
 4. **Como pode evoluir sem quebrar o sistema?**
 
-> ❌ Se não responder, não entra.
+> ✗ Se não responder, não entra.
 
 ### Fluxo de Contribuição
 
@@ -234,7 +234,7 @@ Se algo novo for adicionado, **deve responder**:
 
 ---
 
-## 📖 Paradigma de Design
+## ⦿ Paradigma de Design
 
 Este projeto segue uma filosofia que vai além de padrões tradicionais:
 
@@ -246,25 +246,25 @@ Este projeto segue uma filosofia que vai além de padrões tradicionais:
 
 ---
 
-## 🤖 Nota para Agentes e Sistemas Autônomos
+## ⍟ Nota para Agentes e Sistemas Autônomos
 
 Este repositório foi estruturado para leitura por:
 
-- 👤 Humanos
-- ⚙️ Sistemas automatizados
-- 🤖 Agentes autônomos
+- Humanos
+- Sistemas automatizados
+- Agentes autônomos
 
 Contratos, diagramas e documentos em `/docs` e `/contracts` devem ser tratados como **fonte primária de verdade**.
 
 ---
 
-## 📜 Licença
+## ◇ Licença
 
 Este projeto está sob licença **MIT**. Veja [LICENSE](./LICENSE) para detalhes.
 
 ---
 
-## 👤 Autor
+## ◎ Autor
 
 **MELLØ** — post-human standards applied.
 
@@ -282,6 +282,8 @@ Este projeto está sob licença **MIT**. Veja [LICENSE](./LICENSE) para detalhes
 
 **[⬆ Voltar ao topo](#punk-ecosistemas-de-dados)**
 
-Feito com ☕ Java, 🐍 Python, 🟨 Node.js e 🧠 pura determinação.
+Feito com JVM, PY, TS e determinação.
+
+<sub>Ø((Ø))</sub>
 
 </div>
