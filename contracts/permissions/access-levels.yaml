@@ -1,0 +1,50 @@
+# Access Levels
+# Version: 1.0.0
+
+levels:
+  public:
+    description: Dados abertos, sem autenticação
+    can_read:
+      - domains/identity/public
+      - visualization/public
+    can_write: []
+    can_execute: []
+  
+  operational:
+    description: Execução de tarefas operacionais
+    can_read:
+      - domains/*
+      - ingestion/status
+    can_write:
+      - ingestion/schedule
+    can_execute:
+      - COLLECT_SIGNALS
+  
+  strategic:
+    description: Análise e insights
+    can_read:
+      - domains/*
+      - intelligence/*
+      - visualization/*
+    can_write:
+      - intelligence/config
+    can_execute:
+      - ANALYZE_DIGITAL_PRESENCE
+      - GENERATE_REPORT
+  
+  sovereign:
+    description: Governança total
+    can_read:
+      - "*"
+    can_write:
+      - "*"
+    can_execute:
+      - "*"
+    can_delegate: true
+
+wallet_requirements:
+  public: none
+  operational: embedded | external
+  strategic: embedded | external
+  sovereign: external + multisig
+

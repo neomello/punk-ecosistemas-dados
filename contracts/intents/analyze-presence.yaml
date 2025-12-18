@@ -1,0 +1,55 @@
+# Intent: Analyze Digital Presence
+# Version: 1.0.0
+
+intent: ANALYZE_DIGITAL_PRESENCE
+
+description: |
+  Solicita análise completa da presença digital de uma entidade.
+
+actor:
+  type: agent | user | system
+  required_access: strategic
+
+input:
+  entity_id:
+    type: string
+    required: true
+    description: ID da entidade a ser analisada
+  
+  domains:
+    type: array
+    items: [identity, webPresence, socialPresence, reputation, ecosystem]
+    default: all
+  
+  depth:
+    type: enum
+    values: [surface, standard, deep]
+    default: standard
+
+output:
+  analysis_id:
+    type: string
+  
+  findings:
+    type: array
+    items:
+      domain: string
+      signals: array
+      score: number
+      insights: array
+  
+  generated_diagrams:
+    type: array
+    items:
+      type: enum
+      values: [ecosystem_map, timeline, dependency]
+      format: mermaid
+
+wallet_context:
+  required: true
+  types: [embedded, external, system]
+
+audit:
+  log: true
+  immutable: true
+

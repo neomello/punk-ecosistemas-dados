@@ -1,0 +1,20 @@
+graph TD
+    Identity[Identity Core]
+    Web[Web Presence]
+    Social[Social Presence]
+    Reputation[Reputation]
+    Ecosystem[Ecosystem & Partners]
+
+    Ingestion[Data Ingestion]
+    Intelligence[Intelligence Layer]
+    Visualization[Mermaid Dashboards]
+
+    Identity --> Ingestion
+    Web --> Ingestion
+    Social --> Ingestion
+    Reputation --> Ingestion
+    Ecosystem --> Ingestion
+
+    Ingestion --> Intelligence
+    Intelligence --> Visualization
+

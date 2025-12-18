@@ -1,0 +1,46 @@
+# Event: Signal Collected
+# Version: 1.0.0
+
+event: SIGNAL_COLLECTED
+
+description: |
+  Emitido quando um sinal é coletado com sucesso.
+
+payload:
+  event_id:
+    type: string
+    format: uuid
+  
+  timestamp:
+    type: datetime
+    format: ISO8601
+  
+  entity_id:
+    type: string
+  
+  source:
+    type: enum
+    values: [google, instagram, linkedin, facebook, x, website, other]
+  
+  signal_type:
+    type: enum
+    values: [mention, post, review, metadata, engagement]
+  
+  fingerprint:
+    type: string
+    description: Hash único do sinal
+  
+  collector:
+    type: string
+    description: ID do collector que capturou
+
+consumers:
+  - intelligence/correlation
+  - intelligence/patterns
+  - domains/*/update
+
+producers:
+  - ingestion/search/*
+  - ingestion/social/*
+  - ingestion/web/*
+

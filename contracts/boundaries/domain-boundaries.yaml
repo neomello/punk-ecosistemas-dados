@@ -1,0 +1,132 @@
+# Domain Boundaries
+# Version: 1.0.0
+
+description: |
+  Define as fronteiras entre núcleos.
+  Nenhum núcleo acessa diretamente o estado interno de outro.
+
+boundaries:
+  core:
+    owns:
+      - config
+      - constants
+      - enums
+      - exceptions
+    exposes:
+      - ConfigProvider
+      - FeatureFlags
+    depends_on: []
+  
+  domains:
+    owns:
+      - identity
+      - webPresence
+      - socialPresence
+      - reputation
+      - ecosystem
+    exposes:
+      - DomainRepository
+      - DomainEvents
+    depends_on:
+      - core
+  
+  ingestion:
+    owns:
+      - collectors
+      - schedulers
+    exposes:
+      - CollectorService
+      - IngestionEvents
+    depends_on:
+      - core
+      - contracts/events
+  
+  intelligence:
+    owns:
+      - correlation
+      - patterns
+      - alerts
+      - opportunities
+      - risks
+      - narratives
+    exposes:
+      - AnalysisService
+      - InsightEvents
+    depends_on:
+      - core
+      - domains
+      - contracts/events
+  
+  visualization:
+    owns:
+      - mermaid
+      - exporters
+    exposes:
+      - DiagramGenerator
+      - Exporter
+    depends_on:
+      - core
+      - domains
+      - intelligence
+  
+  identity-access:
+    owns:
+      - auth
+      - wallet
+      - permissions
+      - gating
+    exposes:
+      - AuthService
+      - WalletService
+      - PermissionResolver
+    depends_on:
+      - core
+      - contracts/permissions
+  
+  governance:
+    owns:
+      - audit
+      - tokenization
+      - futureTokens
+    exposes:
+      - AuditLogger
+      - TokenService
+    depends_on:
+      - core
+      - identity-access
+  
+  agents:
+    owns:
+      - intelligence-agent
+      - ingestion-agent
+      - reputation-agent
+      - strategy-agent
+      - governance-agent
+    exposes:
+      - AgentOrchestrator
+    depends_on:
+      - core
+      - contracts/intents
+      - identity-access
+  
+  api:
+    owns:
+      - controllers
+      - routes
+    exposes:
+      - REST endpoints
+      - WebSocket channels
+    depends_on:
+      - all (via contracts only)
+
+communication:
+  allowed:
+    - events
+    - intents
+    - queries via exposed interfaces
+  
+  forbidden:
+    - direct database access across boundaries
+    - shared mutable state
+    - internal model exposure
+

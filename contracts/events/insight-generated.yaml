@@ -1,0 +1,58 @@
+# Event: Insight Generated
+# Version: 1.0.0
+
+event: INSIGHT_GENERATED
+
+description: |
+  Emitido quando a camada de intelligence gera um insight estratégico.
+
+payload:
+  event_id:
+    type: string
+    format: uuid
+  
+  timestamp:
+    type: datetime
+  
+  entity_id:
+    type: string
+  
+  insight_type:
+    type: enum
+    values: [opportunity, risk, pattern, alert, narrative]
+  
+  severity:
+    type: enum
+    values: [low, medium, high, critical]
+  
+  summary:
+    type: string
+    max_length: 500
+  
+  evidence:
+    type: array
+    items:
+      signal_id: string
+      relevance: number
+  
+  recommended_actions:
+    type: array
+    items:
+      action: string
+      priority: number
+  
+  generator:
+    type: string
+    description: ID do agente/serviço que gerou
+
+consumers:
+  - visualization/mermaid
+  - agents/strategy-agent
+  - api/notifications
+
+producers:
+  - intelligence/patterns
+  - intelligence/risks
+  - intelligence/opportunities
+  - intelligence/narratives
+

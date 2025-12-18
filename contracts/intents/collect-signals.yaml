@@ -1,0 +1,53 @@
+# Intent: Collect Signals
+# Version: 1.0.0
+
+intent: COLLECT_SIGNALS
+
+description: |
+  Coleta sinais de fontes externas para uma entidade.
+
+actor:
+  type: agent | system
+  required_access: operational
+
+input:
+  entity_id:
+    type: string
+    required: true
+  
+  sources:
+    type: array
+    items:
+      - google_search
+      - instagram
+      - linkedin
+      - facebook
+      - x
+      - website
+    required: true
+  
+  schedule:
+    type: enum
+    values: [once, hourly, daily, weekly]
+    default: once
+
+output:
+  collection_id:
+    type: string
+  
+  signals:
+    type: array
+    items:
+      source: string
+      timestamp: datetime
+      raw_data: object
+      fingerprint: string
+
+wallet_context:
+  required: false
+  types: [system]
+
+audit:
+  log: true
+  immutable: false
+

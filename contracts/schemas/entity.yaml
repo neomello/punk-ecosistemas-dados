@@ -1,0 +1,64 @@
+# Schema: Entity
+# Version: 1.0.0
+
+entity:
+  id:
+    type: string
+    format: uuid
+    immutable: true
+  
+  name:
+    type: string
+    required: true
+  
+  type:
+    type: enum
+    values: [company, person, brand, unit]
+  
+  identifiers:
+    cnpj:
+      type: string
+      pattern: "^\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2}$"
+    
+    domains:
+      type: array
+      items:
+        type: string
+        format: domain
+    
+    social_handles:
+      type: object
+      properties:
+        instagram: string
+        linkedin: string
+        x: string
+        facebook: string
+  
+  metadata:
+    created_at:
+      type: datetime
+    
+    updated_at:
+      type: datetime
+    
+    created_by:
+      type: string
+      description: wallet address or system
+    
+    fingerprint:
+      type: string
+      description: hash of entity state
+
+relations:
+  parent:
+    type: entity_id
+    nullable: true
+  
+  children:
+    type: array
+    items: entity_id
+  
+  partners:
+    type: array
+    items: entity_id
+
