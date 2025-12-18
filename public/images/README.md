@@ -2,7 +2,7 @@
 
 As imagens foram organizadas por categorias para facilitar a manutenção e uso no projeto.
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 
 ```
 public/images/
@@ -14,7 +14,7 @@ public/images/
 └── outros/            # Imagens diversas (não categorizadas)
 ```
 
-## 📋 Conteúdo por Diretório
+## Conteúdo por Diretório
 
 ### `logo/`
 - `01-Punk_CROSSFIT_LOGO-new-orag.png` - Logo principal
@@ -60,7 +60,7 @@ public/images/
 - `JFE_9892.jpg` - Comunidade
 - `DSC_0851-qujwbw2sprvkknn1l75jkdu4am3ttanlrjqf55a4u8.png` - Imagem da seção "Acreditamos"
 
-## 🔗 Uso no Componente React
+## Uso no Componente React
 
 Todas as imagens são referenciadas usando caminhos relativos a partir de `/images/`:
 
@@ -78,7 +78,7 @@ Todas as imagens são referenciadas usando caminhos relativos a partir de `/imag
 <Image src="/images/modalidades/FLW08934.png" ... />
 ```
 
-## 📝 Notas
+## Notas
 
 - Todas as imagens foram baixadas do site original usando o script `downloadMedia.js`
 - As imagens estão otimizadas para uso com Next.js Image component

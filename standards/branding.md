@@ -135,8 +135,6 @@ public/fonts/
 
 <div align="center">
 
-**Soberania Digital em Preto e Laranja**
-
 <sub>Ø((Ø))</sub>
 
 </div>

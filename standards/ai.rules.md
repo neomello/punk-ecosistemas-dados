@@ -27,11 +27,11 @@ O Cursor lê automaticamente o `.cursorrules` na raiz do projeto. Este arquivo r
 **CRITICAL**: Linha em branco após qualquer header (###, ##, #)
 
 ```markdown
-### ✅ Correto
+### ◉ Correto
 
 Conteúdo aqui.
 
-### ❌ Incorreto
+### ✗ Incorreto
 Conteúdo aqui.
 ```
 

@@ -1,4 +1,4 @@
-package punk-ecosistemas-dados.domains.ecosystem;
+package domains.ecosystem;
 
 public class Integrations {
     

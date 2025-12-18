@@ -6,7 +6,7 @@ Nenhuma fase invalida a anterior.
 
 ## Fase 1: Pesquisa e Mapeamento
 
-**Status:** 🟡 Em progresso
+**Status:** ◌ Em progresso
 
 - [x] Estrutura de núcleos definida
 - [x] CNPJs identificados
@@ -16,7 +16,7 @@ Nenhuma fase invalida a anterior.
 
 ## Fase 2: Dashboards Estratégicos
 
-**Status:** ⚪ Pendente
+**Status:** ○ Pendente
 
 - [ ] Geradores Mermaid funcionais
 - [ ] Exportadores Markdown/PDF
@@ -25,7 +25,7 @@ Nenhuma fase invalida a anterior.
 
 ## Fase 3: Automação Parcial
 
-**Status:** ⚪ Pendente
+**Status:** ○ Pendente
 
 - [ ] Collectors ativos
 - [ ] Schedulers configurados
@@ -34,7 +34,7 @@ Nenhuma fase invalida a anterior.
 
 ## Fase 4: Agentes Autônomos
 
-**Status:** ⚪ Pendente
+**Status:** ○ Pendente
 
 - [ ] Intelligence Agent operacional
 - [ ] Ingestion Agent operacional
@@ -44,7 +44,7 @@ Nenhuma fase invalida a anterior.
 
 ## Fase 5: Tokenização Seletiva
 
-**Status:** ⚪ Pendente
+**Status:** ○ Pendente
 
 - [ ] Governance tokens
 - [ ] Metric tokens
@@ -53,7 +53,7 @@ Nenhuma fase invalida a anterior.
 
 ## Fase 6: Governança Programável
 
-**Status:** ⚪ Pendente
+**Status:** ○ Pendente
 
 - [ ] DAO ready
 - [ ] On-chain rules

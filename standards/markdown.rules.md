@@ -6,19 +6,19 @@
 
 **SEMPRE adicione uma linha em branco após qualquer título** (###, ##, #) antes de iniciar o conteúdo.
 
-#### ✅ Correto
+#### ◉ Correto
 
 ```markdown
-### 1. **Título da Seção** ✅ STATUS
+### 1. **Título da Seção** ◉ STATUS
 
 - **Campo**: Valor
 - **Outro campo**: Outro valor
 ```
 
-#### ❌ Incorreto
+#### ✗ Incorreto
 
 ```markdown
-### 1. **Título da Seção** ✅ STATUS
+### 1. **Título da Seção** ◉ STATUS
 - **Campo**: Valor
 - **Outro campo**: Outro valor
 ```

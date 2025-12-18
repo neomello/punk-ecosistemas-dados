@@ -2,7 +2,7 @@
 
 ## Padrões para .zshrc
 
-> **⚠️ IMPORTANTE**: Nunca versionar API keys ou secrets no .zshrc!
+> **◬ IMPORTANTE**: Nunca versionar API keys ou secrets no .zshrc!
 > Use arquivo separado `~/.zshrc.secrets` (não versionado).
 
 ### Estrutura Recomendada
