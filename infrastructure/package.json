@@ -1,0 +1,22 @@
+{
+  "name": "@punk/infrastructure",
+  "version": "0.1.0",
+  "description": "Infrastructure layer - MCP, Messaging, Notifications",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "test": "tsx src/messaging/mailchain.test.ts",
+    "send": "tsx src/messaging/mailchain.ts"
+  },
+  "dependencies": {
+    "@mailchain/sdk": "^0.17.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  }
+}
