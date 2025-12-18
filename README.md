@@ -157,42 +157,9 @@ Defesa não é firewall. Defesa é:
 
 ---
 
-## ⬡ Primeiros Passos (Ambiente Técnico Interno)
-
-> Este setup destina-se a operadores do ecossistema.  
-> Não representa produto final nem interface pública.
-
-### Pré-requisitos
-
-```bash
-# Java 17+
-java -version
-
-# Python 3.10+
-python --version
-
-# Node.js 18+
-node --version
-```
-
-### Setup Rápido
-
-```bash
-# Clone o repositório
-git clone https://github.com/neomello/punk-ecosistemas-dados
-cd punk-ecosistemas-dados
-
-# Instale dependências por stack
-./scripts/setup.sh
-
-# Rode testes
-./scripts/test.sh
-```
-
----
-
 ## ◇ Documentação
 
+- **[◈ Setup](./docs/SETUP.md)** — Ambiente técnico interno
 - **[◈ Descoberta](./docs/DISCOVERY.md)** — Perguntas que revelam conexões
 - **[Diagramas do Ecossistema](./docs/ECOSYSTEM-DIAGRAM.md)** — Visualização completa da arquitetura
 - **[Arquitetura MCP](./docs/MCP-ARCHITECTURE.md)** — Model Context Protocol e fluxo de intents
