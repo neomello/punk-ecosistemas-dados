@@ -1,7 +1,7 @@
 # ◈ Relatório de Presença Digital — PUNK CROSSFIT
 
 > Fase 1: Pesquisa e Mapeamento  
-> Status: ◌ Em coleta
+> Última coleta: 2025-12-18 12:50
 
 ---
 
@@ -25,175 +25,179 @@
 
 ---
 
-## ◈ Presença Web
+## ◈ Google Search — Resultados Coletados
 
-### Domínios Identificados
+### Busca: "Punk Crossfit Goiânia"
 
-| Domínio | Status | Tipo |
-|---------|--------|------|
-| punkcrossfit.com.br | [ ] Verificar | Principal |
-| punkeldorado.com.br | [ ] Verificar | Unidade |
-| punkmarista.com.br | [ ] Verificar | Unidade? |
-| punkjardimgoias.com.br | [ ] Verificar | Unidade? |
+| Posição | Título | Domínio |
+|---------|--------|---------|
+| 1 | Punk CrossFit: Hard Work - Never Give Up | punkcrossfit.com.br |
+| 2 | PUNK CROSSFIT (@punkcrossfit) | instagram.com |
+| 3 | Unidades | punkcrossfit.com.br |
+| 4 | Punk CrossFit - Marista - Goiânia | wellhub.com |
+| 5 | Punk CrossFit - Goiânia GO | facebook.com |
 
-### Site Principal (punkcrossfit.com.br)
+**Domínios mais frequentes:**
+- punkcrossfit.com.br: 3 resultados
+- instagram.com: 3 resultados
+- wellhub.com: 1 resultado
 
-**Estrutura de Páginas:**
-- [ ] Home
-- [ ] Sobre Nós
-- [ ] Equipe
-- [ ] Comunidade
-- [ ] Estrutura
-- [ ] Horários
-- [ ] O que é CrossFit?
-- [ ] HYROX
-- [ ] Contato
-- [ ] Blog
+### Busca: "Punk Crossfit Marista"
 
-**Dados a Coletar:**
-- [ ] Meta tags (title, description)
-- [ ] Schema.org markup
-- [ ] Google Analytics ID
-- [ ] Pixel Facebook
-- [ ] Velocidade (PageSpeed)
-- [ ] Mobile-friendly score
-- [ ] SSL status
-- [ ] Backlinks (Ahrefs/SEMrush)
+| Posição | Título | Domínio |
+|---------|--------|---------|
+| 1 | PUNK CROSSFIT (@punkcrossfit) | instagram.com |
+| 2 | Punk CrossFit: Hard Work - Never Give Up | punkcrossfit.com.br |
+| 3 | Punk CrossFit - Marista - Goiânia | wellhub.com |
+| 4 | Unidades | punkcrossfit.com.br |
+| 5 | punk crossfit marista | totalpass.com |
 
----
+### Busca: "Punk Crossfit Eldorado"
 
-## ⧉ Presença Social
+| Posição | Título | Domínio |
+|---------|--------|---------|
+| 1 | Punk CrossFit: Hard Work - Never Give Up | punkcrossfit.com.br |
+| 2 | PUNK CROSSFIT (@punkcrossfit) | instagram.com |
+| 3 | Punk CrossFit - Eldorado - Goiânia | wellhub.com |
+| 4 | Punk Crossfit Eldorado - Goiânia GO | facebook.com |
+| 5 | punk crossfit eldorado | totalpass.com |
 
-### Instagram
+### Busca: "Punk Crossfit Jardim Goiás"
 
-| Conta | Followers | Posts | Engajamento |
-|-------|-----------|-------|-------------|
-| @punkcrossfit | [ ] Coletar | [ ] | [ ] |
-| @punkeldorado | [ ] Verificar | [ ] | [ ] |
-| @punkmarista | [ ] Verificar | [ ] | [ ] |
-| @punkjardimgoias | [ ] Verificar | [ ] | [ ] |
+| Posição | Título | Domínio |
+|---------|--------|---------|
+| 1 | Punk CrossFit: Hard Work - Never Give Up | punkcrossfit.com.br |
+| 2 | PUNK CROSSFIT (@punkcrossfit) | instagram.com |
+| 3 | Punk Crossfit - Jardim Goiás - Goiânia | wellhub.com |
+| 4 | punk crossfit jardim goias | totalpass.com |
+| 5 | Affiliate: Punk CrossFit Jardim Goiás | games.crossfit.com |
 
-**Métricas a Coletar:**
-- [ ] Followers count
-- [ ] Following count
-- [ ] Posts count
-- [ ] Média de likes/post
-- [ ] Média de comentários/post
-- [ ] Frequência de posts (posts/semana)
-- [ ] Horários de pico
-- [ ] Hashtags mais usadas
-- [ ] Tipo de conteúdo (foto/video/reels/stories)
+### Análise Google
 
-### YouTube
-
-| Canal | Subscribers | Videos | Views |
-|-------|-------------|--------|-------|
-| PUNK CrossFit | [ ] Verificar | [ ] | [ ] |
-
-### Outras Plataformas
-
-- [ ] Facebook
-- [ ] TikTok
-- [ ] LinkedIn (empresa)
-- [ ] Twitter/X
+| Métrica | Valor | Nota |
+|---------|-------|------|
+| Knowledge Graph | ✗ Não aparece | Oportunidade SEO |
+| Site na posição 1 | 3/4 buscas | Bom |
+| Instagram top 2 | 4/4 buscas | Forte presença social |
+| Terceiros (Wellhub/TotalPass) | Em todas | Parcerias ativas |
 
 ---
 
-## ◎ Google Business
+## ⧉ Google Maps — Unidades
 
-### Listagens a Verificar
+| Unidade | Endereço | Rating | Reviews |
+|---------|----------|--------|---------|
+| **PUNK CROSSFIT (Marista)** | Rua 1135, 161 - St. Marista | ⭐ 4.7 | — |
+| **Punk Crossfit Jardim Goiás** | R. 14, Qd. C-09, Lt. 07 - Jardim Goiás | ⭐ 4.8 | — |
+| **PUNK CROSSFIT ELDORADO** | Av. Trieste, 73 - Village Veneza | ⭐ 4.6 | — |
 
-| Unidade | Google Maps | Reviews | Rating |
-|---------|-------------|---------|--------|
-| Marista | [ ] | [ ] | [ ] |
-| Eldorado | [ ] | [ ] | [ ] |
-| Jardim Goiás | [ ] | [ ] | [ ] |
-| BLVCK Plaza D'Oro | [ ] | [ ] | [ ] |
-
-**Dados por Unidade:**
-- [ ] Endereço completo
-- [ ] Telefone
-- [ ] Horário de funcionamento
-- [ ] Fotos
-- [ ] Quantidade de reviews
-- [ ] Rating médio
-- [ ] Palavras-chave nas reviews
+**Observações:**
+- BLVCK Plaza D'Oro não apareceu na busca
+- Reviews count não retornado pela API
+- Jardim Goiás tem melhor rating (4.8)
 
 ---
 
-## ⬡ Modalidades Oferecidas
+## ◎ Instagram
 
-| Modalidade | Descrição | Unidades |
-|------------|-----------|----------|
-| CrossFit | Alta intensidade, levantamento, ginástica | Todas |
-| Musculação | Força e resistência complementar | [ ] Verificar |
-| HYROX | Corrida funcional + força (domingos) | [ ] Verificar |
-| CrossFit Kids | Crianças e adolescentes | [ ] Verificar |
+| Conta | Status | Dados |
+|-------|--------|-------|
+| @punkcrossfit | ● Existe | Bloqueado pela proteção do Instagram |
 
----
-
-## ⬢ Equipe
-
-### Liderança
-
-| Nome | Cargo | LinkedIn |
-|------|-------|----------|
-| Ricardo Prudente | Fundador/Head Coach | [ ] Verificar |
-| [ ] | [ ] | [ ] |
-
-**A Coletar:**
-- [ ] Lista completa de coaches
-- [ ] Certificações
-- [ ] Presença individual nas redes
+**Nota:** Para métricas reais (followers, engagement), necessário:
+- Meta Business Suite access
+- Instagram Graph API
 
 ---
 
-## ◇ Concorrência Local (Goiânia)
+## ⬡ Websites Analisados
 
-| Competidor | Instagram | Google Rating | Diferencial |
-|------------|-----------|---------------|-------------|
-| [ ] | [ ] | [ ] | [ ] |
-| [ ] | [ ] | [ ] | [ ] |
-| [ ] | [ ] | [ ] | [ ] |
+### punkcrossfit.com.br (Principal)
+
+| Métrica | Valor |
+|---------|-------|
+| Status | ❌ Erro de conexão |
+| SSL | — |
+| Response | — |
+
+**Ação:** Investigar se site está fora do ar ou bloqueando requests
+
+### punkeldorado.com.br (Eldorado)
+
+| Métrica | Valor |
+|---------|-------|
+| Status | ✅ 200 OK |
+| SSL | ✅ Sim |
+| Response | 583ms |
+| Title | "Punk Eldorado - Lançamento - Cópia" |
+| Google Analytics | ✅ Ativo |
+| Google Tag Manager | ✗ Não |
+| Facebook Pixel | ✅ Ativo |
+| Meta Description | ✗ Vazia |
+| OG Tags | ✗ Não configuradas |
+
+**Problemas identificados:**
+- Title com "Cópia" (provavelmente erro)
+- Encoding quebrado (LanÃ§amento)
+- Sem meta description
+- Sem OG tags (compartilhamento social prejudicado)
 
 ---
 
-## ⦿ Sinais Coletados
+## ⬢ Parcerias Identificadas
 
-### Força Identificada
-- Comunidade orgânica forte
-- Marca consolidada (desde 2013)
-- Múltiplas unidades operacionais
-- Presença em competições (HYROX)
+| Parceiro | Tipo | Presença |
+|----------|------|----------|
+| Wellhub (ex-Gympass) | Benefício corporativo | Todas unidades listadas |
+| TotalPass | Benefício corporativo | Marista, Eldorado, Jardim Goiás |
+| CrossFit Games | Afiliação oficial | Jardim Goiás (ID: 19314) |
 
-### Gaps Identificados
-- [ ] Narrativa digital unificada
-- [ ] SEO estruturado
-- [ ] Conteúdo de blog ativo
-- [ ] Funil digital claro
+---
+
+## ◇ Sinais Coletados
+
+### Força
+- ✅ Domina posição 1-2 nas buscas do Google
+- ✅ Instagram forte (top 2 em todas as buscas)
+- ✅ Ratings Google Maps excelentes (4.6-4.8)
+- ✅ Parcerias com Wellhub e TotalPass
+- ✅ Afiliação oficial CrossFit Games
+
+### Gaps
+- ❌ Sem Knowledge Graph no Google
+- ❌ Site principal com problemas de acesso
+- ❌ Site Eldorado com erros de SEO básico
+- ❌ Meta tags incompletas
+- ❌ OG tags ausentes (preview social)
 
 ### Oportunidades
-- [ ] Unificação de presença digital
-- [ ] Automação de relatórios
-- [ ] Dashboard de métricas
-- [ ] Tokenização de comunidade (futuro)
+- ◎ Configurar Google Business completo → Knowledge Graph
+- ◎ Corrigir SEO básico do site Eldorado
+- ◎ Unificar presença digital (1 site principal)
+- ◎ Implementar schema.org para rich snippets
+- ◎ Otimizar para "CrossFit Goiânia" (termo genérico)
 
 ---
 
 ## ◎ Próximas Ações
 
-### Coleta Imediata
-1. [ ] Rodar `research/main.py` com APIs configuradas
-2. [ ] Coletar métricas Instagram via API
-3. [ ] Scrape estruturado do site principal
-4. [ ] Google Business API para reviews
+### Imediato
+1. [x] Coleta Google Search
+2. [x] Coleta Google Maps
+3. [ ] Investigar erro site principal
+4. [ ] Coletar métricas Instagram via Meta API
 
-### Análise
-1. [ ] Mapear jornada do usuário no site
-2. [ ] Comparar métricas com concorrência
-3. [ ] Identificar gaps de conteúdo
-4. [ ] Propor estrutura de dashboard
+### Curto Prazo
+1. [ ] Auditar SEO completo do site
+2. [ ] Mapear todas as páginas do Facebook
+3. [ ] Verificar Google Business de cada unidade
+4. [ ] Coletar reviews detalhados
+
+### Médio Prazo
+1. [ ] Dashboard de métricas
+2. [ ] Monitoramento contínuo
+3. [ ] Alertas de mudança
 
 ---
 
-<sub>Ø((Ø))</sub>
+<sub>Gerado via research/ — Ø((Ø))</sub>
