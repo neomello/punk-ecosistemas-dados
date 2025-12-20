@@ -223,13 +223,14 @@ Contratos, diagramas e documentos em `/docs` e `/contracts` devem ser tratados c
 
 ## ◇ Licença
 
-Este projeto está sob licença **MIT**. Veja [LICENSE](./LICENSE) para detalhes.
+Este é um projeto proprietário de uso interno da [Nome da Empresa]. 
+Todos os direitos reservados.
 
 ---
 
 ## ◎ Autor
 
-**MELLØ** — post-human standards applied.
+**MELLØ** — Arquiteto de sistemas // NEO PROTOCOL.
 
 > Trabalho seguindo minhas próprias standards pessoais: mudanças são bem-vindas, inconsistência não.
 
