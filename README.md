@@ -185,13 +185,8 @@ Se algo novo for adicionado, **deve responder**:
 
 > ✗ Se não responder, não entra.
 
-### Fluxo de Contribuição
-
-1. **Fork** o projeto
-2. **Create** uma branch (`git checkout -b feat/sua-feature`)
-3. **Commit** com mensagens claras (`git commit -m 'feat: descrição'`)
-4. **Push** para sua branch (`git push origin feat/sua-feature`)
-5. **Abra um PR** com contexto dos 4 pontos acima
+### Desenvolvimento e Melhorias
+Projeto mantido internamente. Sugestões e feedbacks são discutidos em reuniões de alinhamento antes da implementação.
 
 ### Padrões de Código
 
