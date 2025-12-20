@@ -75,7 +75,7 @@ punk-ecosistemas-dados/
 
 **Legenda:**
 
-- ◌ **Estrutura** — Núcleo definido, contratos desenhados, implementação inicial
+- ◌ **Estrutura** — Núcleo definido, smart contracts desenhados, implementação inicial.
 - ● **Operacional** — Núcleo ativo com coleta, análise ou geração de valor
 
 ---
@@ -153,7 +153,8 @@ Defesa não é firewall. Defesa é:
 ### Canais Oficiais
 
 - **Instagram**: [@punkcrossfit](https://www.instagram.com/punkcrossfit)
-- **Site (Eldorado)**: [punkeldorado.com.br](https://www.punkeldorado.com.br/)
+- **Site Web2 (Eldorado)**: [punkeldorado.com.br](https://www.punkeldorado.com.br/)
+- **Site Web2 (Principal)**: [punk.com.br](https://www.punk.com.br/)
 
 ---
 
@@ -169,11 +170,11 @@ Defesa não é firewall. Defesa é:
 
 ---
 
-## ◎ Contribuindo
+## ◎ Contribuições
 
-Adora contribuir? Excelente. Siga essas regras:
+Importante considerar as regras:
 
-### Regra Final para Toda Adição
+### Regra para Toda Adição
 
 Se algo novo for adicionado, **deve responder**:
 
